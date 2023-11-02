@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+
+    "target": "esnext",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "lib": ["dom", "ES2017"],                            /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "rootDir": "./src",                                   /* La cartella che coniene il file .ts */
+    "outDir": "./public/js",                             /* La cartella che contiene il file .js compilato */    
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "skipLibCheck": true,                                /* Skip type checking all .d.ts files. */
+    "noEmitOnError": true,
+    "sourceMap": true                                     /* Serve a vedere come Typescript mappa il codice Javascript. Serve per migliorare il debugging*/
+  }
+}
